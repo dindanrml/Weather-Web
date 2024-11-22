@@ -1,3 +1,17 @@
-main {
-    background-color: antiquewhite;
+body {
+    background-image: url(weather\ bg\ 3.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#city {
+    padding-top: 50px;
+}
+
+/* untuk mengubah warna card karena tidak tersedia di bootstrap */
+.body-custom {
+    background-color: #7db4cd; 
 }
